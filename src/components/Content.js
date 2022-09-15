@@ -1,9 +1,15 @@
 import React from 'react'
 import { Box } from '@mui/material';
+import TourCard from './TourCard';
 
 const Content = () => {
   return (
-    <Box backgroundColor='blueviolet' flex={2}>Content</Box>
+    <Box  flex={2} padding={3}>
+      <TourCard/>
+      <TourCard/>
+      <TourCard/>
+      <TourCard/>
+    </Box>
   )
 }
 
