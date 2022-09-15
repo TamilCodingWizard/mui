@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import { Box } from "@mui/material";
 
 function App() {
+
   return (
     <Box>
       <NavBar/>
